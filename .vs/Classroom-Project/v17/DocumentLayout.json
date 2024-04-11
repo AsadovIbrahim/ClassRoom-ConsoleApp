@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|c:\\users\\asus\\source\\repos\\classroom-project\\classroom-project\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|solutionrelative:classroom-project\\models\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|c:\\users\\asus\\source\\repos\\classroom-project\\classroom-project\\enums\\typestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|solutionrelative:classroom-project\\enums\\typestudent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|c:\\users\\asus\\source\\repos\\classroom-project\\classroom-project\\exceptions\\studentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|solutionrelative:classroom-project\\exceptions\\studentnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|c:\\users\\asus\\source\\repos\\classroom-project\\classroom-project\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|solutionrelative:classroom-project\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|c:\\users\\asus\\source\\repos\\classroom-project\\classroom-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C307091-DBBC-42BA-92A6-2D66DB90C1F7}|Classroom-Project\\Classroom-Project.csproj|solutionrelative:classroom-project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Exceptions\\StudentNotFoundException.cs",
+              "RelativeDocumentMoniker": "Classroom-Project\\Exceptions\\StudentNotFoundException.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Exceptions\\StudentNotFoundException.cs",
+              "RelativeToolTip": "Classroom-Project\\Exceptions\\StudentNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:34:03.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Classroom.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Models\\Classroom.cs",
+              "RelativeDocumentMoniker": "Classroom-Project\\Models\\Classroom.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Models\\Classroom.cs",
+              "RelativeToolTip": "Classroom-Project\\Models\\Classroom.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T12:58:06.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TypeStudent.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Enums\\TypeStudent.cs",
+              "RelativeDocumentMoniker": "Classroom-Project\\Enums\\TypeStudent.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Enums\\TypeStudent.cs",
+              "RelativeToolTip": "Classroom-Project\\Enums\\TypeStudent.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T12:57:16.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Classroom-Project\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Models\\Student.cs",
+              "RelativeToolTip": "Classroom-Project\\Models\\Student.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T12:53:50.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Program.cs",
+              "RelativeDocumentMoniker": "Classroom-Project\\Program.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\Classroom-Project\\Classroom-Project\\Program.cs",
+              "RelativeToolTip": "Classroom-Project\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T12:51:53.889Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

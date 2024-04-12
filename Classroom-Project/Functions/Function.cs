@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,8 @@ namespace Classroom_Project.Functions
 
         public static void Logo()
         {
+
+            
             Console.ForegroundColor = ConsoleColor.Green;
 
             Console.WriteLine(@"
@@ -20,8 +23,8 @@ namespace Classroom_Project.Functions
                                       /        \  \___|   Y  (  <_> |  <_> )  |__
                                      /_______  /\___  >___|  /\____/ \____/|____/
                                              \/     \/     \/                    ");
-            
-            
+
+
             Console.ForegroundColor = ConsoleColor.White;
         }
 

@@ -13,7 +13,7 @@ namespace Classroom_Project
             bool status = true;
             dynamic key;
             int choose = 0;
-            Classroom students=null;
+            Classroom students=null!;
             while (status)
             {
                 Console.Clear();
@@ -116,17 +116,22 @@ namespace Classroom_Project
                             {
                                 Console.WriteLine("Invalid student type!");
                                 PressAnyKey();
+                                return;
                             }
 
                             try
                             {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 students = new Classroom(fullName!, typeStudent);
-                                Console.WriteLine("Classroom created successfully!");
+                                Console.WriteLine("\nClassroom created successfully!");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 PressAnyKey();
                             }
                             catch (Exception ex)
                             {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine($"Error: {ex.Message}");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 PressAnyKey();
                             }
                         }
@@ -134,45 +139,87 @@ namespace Classroom_Project
                         {
                             if (students == null) 
                             {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("Classroom has not been created yet!");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 PressAnyKey();
                             }
                             else
                             {
                                 Console.ForegroundColor = ConsoleColor.Yellow;
-                                Console.WriteLine("Enter Student Name:");
+                                Console.Write("Enter Student Name:");
                                 string name = Console.ReadLine()!;
-                                Console.WriteLine("Enter Student Surname:");
+                                Console.Write("\nEnter Student Surname:");
                                 string surname = Console.ReadLine()!;
-                                students.AddStudent(new Student(name, surname));
-                                Console.WriteLine("Student Created Successfully...");
-                                PressAnyKey();
+                                students.AddStudent(new Student(name, surname)); 
+                                Console.WriteLine("\nStudent Created Successfully...");
                                 Console.ForegroundColor = ConsoleColor.White;
+                                PressAnyKey();
                             }
                         }
                         else if(choose == 2)
                         {
                             if (students == null) 
                             {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.WriteLine("Classroom has not been created yet!");
+                                Console.ForegroundColor = ConsoleColor.White;
                                 PressAnyKey();
                             }
                             else
                             {
                                 Console.ForegroundColor = ConsoleColor.Yellow;
                                 students.ShowAllStudents();
-                                PressAnyKey();
                                 Console.ForegroundColor = ConsoleColor.White;
+                                PressAnyKey();
                             }
                         }
                         else if (choose == 3)
                         {
-                            Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.Write("Which Student Do You Want To Find?:");
-                            int id=Convert.ToInt32(Console.ReadLine());
-                            students.FindId(id);
+                            if(students==null || students.Students == null)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.WriteLine("Students Or Classroom Is Not Created!");
+                                Console.ForegroundColor = ConsoleColor.White;
+
+                                PressAnyKey();
+                            }
+                            else
+                            {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.Write("Which Student Do You Want To Find?:");
+                                int id=Convert.ToInt32(Console.ReadLine());
+                                Console.WriteLine();
+                                students.FindId(id);
+                                Console.ForegroundColor = ConsoleColor.White;
+                                PressAnyKey();
+
+                            }
+                        }
+                        else if (choose == 4)
+                        {
+                            if (students == null || students.Students == null)
+                            {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.WriteLine("Students Or Classroom Is Not Created!");
+                                Console.ForegroundColor = ConsoleColor.White;
+
+                                PressAnyKey();
+                            }
+                            else
+                            {
+                                Console.ForegroundColor = ConsoleColor.Yellow;
+                                Console.Write("Which Student Do You Want To Remove:");
+                                int id= Convert.ToInt32(Console.ReadLine());
+                                Console.WriteLine();
+                                students.DeleteStudent(id);
+                                Console.ForegroundColor = ConsoleColor.White;
+                                PressAnyKey();
+                            }
+                        }
+                        else if (choose == 5)
+                        {
                             PressAnyKey();
-                            Console.ForegroundColor = ConsoleColor.White;
                         }
                         break;
                 }

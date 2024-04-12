@@ -1,7 +1,8 @@
 ﻿using Classroom_Project.Enums;
 using Classroom_Project.Exceptions;
 using Classroom_Project.Models;
-using System;
+
+
 
 public class Classroom
 {
@@ -49,20 +50,33 @@ public class Classroom
 
     public void DeleteStudent(int id)
     {
-        for (int i = 0; i < Students.Length; i++)
+        try
         {
-            if (Students[i].Id == id)
+            int index = -1; 
+            for (int i = 0; i < Students.Length; i++)
             {
-                for (int j = i; j < Students.Length - 1; j++)
+                if (Students[i].Id == id)
                 {
-                    Students[j] = Students[j + 1];
+                    index = i; 
+                    break; 
                 }
+            }
+
+            if (index != -1)
+            {
+                Array.Copy(Students, index + 1, Students, index, Students.Length - index - 1);
                 Array.Resize(ref Students, Students.Length - 1);
                 Console.WriteLine("Student has been deleted successfully.");
-                return;
+            }
+            else
+            {
+                throw new StudentNotFoundException("Student Not Found!");
             }
         }
-        throw new StudentNotFoundException("Student not found!");
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
 
     public void ShowAllStudents()

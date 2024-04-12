@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\bin\Debug\net8.0\Classroom-Project.exe
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\bin\Debug\net8.0\Classroom-Project.deps.json
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\bin\Debug\net8.0\Classroom-Project.runtimeconfig.json
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\bin\Debug\net8.0\Classroom-Project.dll
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\bin\Debug\net8.0\Classroom-Project.pdb
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\Classroom-Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\Classroom-Project.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\Classroom-Project.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\Classroom-Project.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\Classroom-Project.sourcelink.json
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\Classroom-Project.dll
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\refint\Classroom-Project.dll
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\Classroom-Project.pdb
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\Classroom-Project.genruntimeconfig.cache
+C:\Users\ASUS\source\repos\Classroom-Project\Classroom-Project\obj\Debug\net8.0\ref\Classroom-Project.dll

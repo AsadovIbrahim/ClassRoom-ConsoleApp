@@ -61,7 +61,7 @@ public class Classroom
                     break; 
                 }
             }
-
+ 
             if (index != -1)
             {
                 Array.Copy(Students, index + 1, Students, index, Students.Length - index - 1);

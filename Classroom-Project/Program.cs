@@ -149,8 +149,20 @@ namespace Classroom_Project
                                 Console.ForegroundColor = ConsoleColor.Yellow;
                                 Console.Write("Enter Student Name:");
                                 string name = Console.ReadLine()!;
+                                if (name.CheckName())
+                                {
+                                    Console.WriteLine("Name Is Valid!");
+                                    PressAnyKey();
+                                    continue;
+                                }
                                 Console.Write("\nEnter Student Surname:");
                                 string surname = Console.ReadLine()!;
+                                if (surname.CheckSurname())
+                                {
+                                    Console.WriteLine("Surname Is Valid!");
+                                    PressAnyKey();
+                                    continue;
+                                }
                                 students.AddStudent(new Student(name, surname)); 
                                 Console.WriteLine("\nStudent Created Successfully...");
                                 Console.ForegroundColor = ConsoleColor.White;
